@@ -20,7 +20,7 @@ public class TestjenkinsApplicationTests {
 
 	@Test
 	public void testMain(){
-		TestjenkinsApplication.main(new String[]{"123"});
+		TestjenkinsApplication.main(new String[]{"Hello World"});
 		try {
 			assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
 		} catch (AssertionError e) {
@@ -30,11 +30,7 @@ public class TestjenkinsApplicationTests {
 	@Test
 	public void testnull(){
 		System.out.println("只是测试一下持续继承");
-		try {
-			assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
-		} catch (AssertionError e) {
-			fail("\"message\" is not \"Hello World!\"");
-		}
+
 	}
 
 
