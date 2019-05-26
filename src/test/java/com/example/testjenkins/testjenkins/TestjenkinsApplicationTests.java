@@ -19,6 +19,7 @@ public class TestjenkinsApplicationTests {
 		System.out.println("fuck you ");
 		System.out.println("diergefenzhi");
 		System.out.println("jiushi buxing");
+		System.out.println("gunnimade");
 
 	}
 
