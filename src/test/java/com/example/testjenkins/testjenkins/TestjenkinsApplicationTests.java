@@ -20,7 +20,7 @@ public class TestjenkinsApplicationTests {
 
 	@Test
 	public void testMain(){
-		TestjenkinsApplication.main(null);
+//		TestjenkinsApplication.main(null)
 		try {
 			assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
 		} catch (AssertionError e) {
