@@ -16,7 +16,7 @@ public class TestjenkinsApplicationTests {
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 	@Test
 	public void contextLoads() {
-
+		System.out.println("fuck you ");
 
 	}
 
