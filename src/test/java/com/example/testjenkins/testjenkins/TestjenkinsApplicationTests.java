@@ -30,6 +30,7 @@ public class TestjenkinsApplicationTests {
 	@Test
 	public void testnull(){
 		System.out.println("只是测试一下持续继承");
+		System.out.println("添加了一个分支");
 
 	}
 
