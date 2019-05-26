@@ -17,6 +17,7 @@ public class TestjenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		System.out.println("fuck you ");
+		System.out.println("diergefenzhi");
 
 	}
 
