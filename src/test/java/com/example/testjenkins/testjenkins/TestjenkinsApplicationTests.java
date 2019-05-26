@@ -18,8 +18,18 @@ public class TestjenkinsApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
 	public void testMain(){
 		TestjenkinsApplication.main(null);
+		try {
+			assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
+		} catch (AssertionError e) {
+			fail("\"message\" is not \"Hello World!\"");
+		}
+	}
+	@Test
+	public void testnull(){
+		System.out.println("只是测试一下持续继承");
 		try {
 			assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
 		} catch (AssertionError e) {
