@@ -20,6 +20,7 @@ public class TestjenkinsApplicationTests {
 		System.out.println("diergefenzhi");
 		System.out.println("jiushi buxing");
 		System.out.println("gunnimade");
+		System.out.println("阿斯顿卢卡斯就到了卡简单");
 
 	}
 
