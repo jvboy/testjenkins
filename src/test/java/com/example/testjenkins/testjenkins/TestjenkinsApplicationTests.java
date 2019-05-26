@@ -33,7 +33,7 @@ public class TestjenkinsApplicationTests {
 	public void testnull(){
 		System.out.println("只是测试一下持续继承");
 		System.out.println("添加了一个分支");
-
+		System.out.println("为什么blueocean不行呢");
 		System.out.println("上次不是最后一次");
 
 
