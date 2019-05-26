@@ -18,7 +18,6 @@ public class TestjenkinsApplicationTests {
 	public void contextLoads() {
 
 
-
 	}
 
 	@Test
